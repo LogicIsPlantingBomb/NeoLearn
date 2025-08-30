@@ -1,0 +1,49 @@
+# Core Dependencies
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# LangChain Core
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+langchain-google-genai>=0.0.11
+
+# Google AI
+google-generativeai>=0.3.0
+
+# Vector Store & Embeddings
+faiss-cpu>=1.7.4
+
+# Document Loaders
+PyPDF2>=3.0.1
+pypdf>=3.17.0
+python-docx>=0.8.11
+docx2txt>=0.8
+
+# Text-to-Speech
+gTTS>=2.4.0
+
+# Voice Recording (Streamlit Component)
+streamlit-mic-recorder>=0.0.5
+
+# Text Processing
+tiktoken>=0.5.1
+
+# Optional: PowerPoint Support
+unstructured[pptx]>=0.10.0
+python-pptx>=0.6.21
+
+# Optional: Image OCR Support
+pillow>=10.0.0
+unstructured[pillow]>=0.10.0
+
+# Optional: Enhanced document processing
+unstructured>=0.10.0
+
+# Audio Processing (for Deepgram)
+# Note: Deepgram API is accessed via HTTP requests, no additional package needed
+
+# Additional utilities
+numpy>=1.24.0
+pandas>=2.0.0
