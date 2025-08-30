@@ -3,6 +3,8 @@
 NeoLearn is an interactive **AI teacher** built with **Streamlit + LangChain + Google Gemini + Deepgram**. It supports **text and voice chat**, optional **RAG over your files** (PDF/TXT/DOCX/PPTX/Images via OCR), **TTS playback**, and rich **study tools** (notes, questions, learning reports, and export).
 
 ---
+<img width="1918" height="1018" alt="Screenshot 2025-08-30 193040" src="https://github.com/user-attachments/assets/b1d39813-47f6-44db-95a3-34f5007bb901" />
+
 
 ## ✨ Features
 
@@ -222,7 +224,15 @@ pillow
 * Export to PDF/Docx for notes/report
 
 ---
-
+🔑 Key Differences from ChatGPT
+Personalization with Memory
+ChatGPT gives generic answers, but NeoLearn remembers what you’ve uploaded and tailors responses to your study material.
+RAG (Retrieval-Augmented Generation)
+Instead of answering only from its training data, NeoLearn pulls directly from PDFs, PPTs, Docs, and even images you provide. This makes it more grounded and accurate for your context.
+ChatGPT is mostly text-first (unless you pay for Pro), whereas NeoLearn supports voice input + voice output, plus OCR for images.
+Beyond just answering questions, NeoLearn generates notes, practice questions, and learning reports — something ChatGPT doesn’t natively offer.
+Unlike ChatGPT (closed system), NeoLearn is built with LangChain, FAISS, Streamlit, Gemini, Deepgram, gTTS etc., giving you full control of pipeline, embeddings, and data flow.
+Data isn’t just “sent to OpenAI servers.” You decide what to feed, how it’s stored, and how it’s retrieved (vector DB).
 ## 📜 License
 
 Choose a license (e.g., MIT) and add it here.
