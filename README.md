@@ -1,4 +1,4 @@
-# 🧠 NeoLearn — AI Teacher with Memory
+# 🧠 NeoLearn — AI Teacher with Memory.
 
 NeoLearn is an interactive **AI teacher** built with **Streamlit + LangChain + Google Gemini + Deepgram**. It supports **text and voice chat**, optional **RAG over your files** (PDF/TXT/DOCX/PPTX/Images via OCR), **TTS playback**, and rich **study tools** (notes, questions, learning reports, and export).
 
